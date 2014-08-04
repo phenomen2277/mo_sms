@@ -49,7 +49,7 @@ module MoSms
     def code_to_message(code)
       case code
         when 1
-          return "Not send with the right parameters"
+          return "Not sent with the right parameters"
         when 2
           return "Wrong username and/or password"
         when 3
